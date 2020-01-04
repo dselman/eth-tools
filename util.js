@@ -38,8 +38,8 @@ async function transferEther(e, options) {
         privateKey
     } = e;
 
-    // defaults to the Rinkeby test net, hosted by Infura
-    const rpcUrl = e.rpcUrl ? e.rpcUrl : 'https://rinkeby.infura.io/v3/9e842e9198da4a9aae1d4f02b480ef20';
+    // defaults to localhost
+    const rpcUrl = e.rpcUrl ? e.rpcUrl : 'https://localhost:8545';
 
     const web3 = (options && options.web3) ? options.web3 :
         // @ts-ignore
