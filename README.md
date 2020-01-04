@@ -2,6 +2,14 @@
 
 Some useful utilities for Ethereum testing.
 
+## Install
+ 
+```
+git clone https://github.com/dselman/eth-tools
+cd eth-tools
+npm install
+```
+
 ## Setup a local geth node, create an account and request Ether
 
 To setup your local geth node follow [these instructions](https://gist.github.com/cryptogoth/10a98e8078cfd69f7ca892ddbdcf26bc).
