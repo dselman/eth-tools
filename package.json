@@ -1,0 +1,17 @@
+{
+  "name": "eth-tools",
+  "version": "1.0.0",
+  "description": "Ethereum utilities",
+  "main": "transferEther.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Selman",
+  "license": "Apache-2",
+  "dependencies": {
+    "@johnls/readline-password": "^1.1.0",
+    "keythereum-node": "^2.0.0",
+    "readline-sync": "^1.4.10",
+    "web3": "^1.2.4"
+  }
+}
