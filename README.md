@@ -5,7 +5,7 @@ Some useful utilities for Ethereum testing.
 ## Install
  
 ```
-git clone https://github.com/dselman/eth-tools
+git clone https://github.com/dselman/eth-tools.git
 cd eth-tools
 npm install
 ```
